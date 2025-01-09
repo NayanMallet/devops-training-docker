@@ -18,3 +18,7 @@ nginx        latest    42e917aaa1b5   6 weeks ago    280MB
 ```bash
 docker run --name my_nginx -v /Users/nayanmallet/Developer/DevOps/devops-training-docker/html:/usr/share/nginx/html nginx
 ```
+### e. Commande pour supprimer le container
+```bash
+docker container rm my_nginx
+```
